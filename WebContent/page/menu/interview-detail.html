@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../../css/bootstrap.css" />
+
+        <link href="../../css/main.css" rel="stylesheet">
+        <link href="../../css/icomoon.css" rel="stylesheet">
+        <link href="../../css/animate-custom.css" rel="stylesheet">
+        <link href="../../css/interviewDetail.css" rel="stylesheet">
+
+        <script type="text/javascript" src="../../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../../js/jquery-2.1.0.min.js"></script>	
+        <script type="text/javascript" src="../../js/interviewUpdate.js"></script>
+    </head>
+    <body>
+        <div id="interview_detail">
+            <div>
+                <h1>面试细节<small>   You should have careful look.</small></h1>
+            </div>
+            <div>
+                <label>面试序号</label>
+                <input type="id" class="form-control" id="interviewId">
+            </div>
+            <div>
+                <label>面试人员</label>
+                <input type="user" class="form-control" id="interviewTitle">
+            </div>
+            <div>
+                <label>面试要求</label>
+                <textarea class="form-control" id="interviewDesc" rows="4"></textarea>
+            </div>
+            <div>
+                <label>面试时间</label>
+                <input class="form-control" id="interviewTime">
+            </div>
+            <div>
+                <label>联系方式</label>
+                <input class="form-control" id="interviewPhone">
+            </div>
+            <div>
+                <label>联系人</label>
+                <input class="form-control" id="interviewUser">
+            </div>
+            <div>
+                <label>面试地点</label>
+                <input type="password" class="form-control" id="interviewPlace">
+            </div>
+
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default" id="update">Submit</button>
+        </div>
+    </body>
+</html>
